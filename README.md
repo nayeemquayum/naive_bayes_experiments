@@ -23,8 +23,10 @@ Recall:  0.8044692737430168
 F1 score:  0.8019315702400076
 
 #####################    email_classifier.py      ###################
+
 In this program we applied the MultinomialNB classifier on email spam data. We converted the corpus (email body) with CountVectorizer.
 The classification score is
+
 Multinomial NB model Score: 0.9754943079688436
 Accuracy: 0.9754943079688436
 Confusion matrix       0     1
