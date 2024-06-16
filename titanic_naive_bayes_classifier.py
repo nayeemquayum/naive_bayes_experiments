@@ -38,8 +38,7 @@ preprocessor = ColumnTransformer(
 
 #split the data in train and test
 X_train,X_test,y_train,y_test = train_test_split(titanic_df.drop(columns=['Survived']),
-                                                 titanic_df['Survived'],
-                                                 test_size=0.2)
+                                                 titanic_df['Survived'],test_size=0.2)
 GNB_model = GaussianNB()
 GNB_classifier=Pipeline(steps=[
     ('preprocessor', preprocessor),
